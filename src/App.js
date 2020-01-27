@@ -31,9 +31,25 @@ import React, { createContext, useReducer } from 'react';
 // import ComponentC from './hooks/useReducerUseContext/ComponentC'
 
 // ------------- DATA FETCHING with useREDUCER ---------------
-import ConventionalDataFetching from './hooks/useReducerFetchData/ConventionalDataFetching'
-import ReducerDataFetching from './hooks/useReducerFetchData/ReducerDataFetching'
+// import ConventionalDataFetching from './hooks/useReducerFetchData/ConventionalDataFetching'
+// import ReducerDataFetching from './hooks/useReducerFetchData/ReducerDataFetching'
 
+// -------------- useCALLBACK -----------------------
+// import ParentComponent from './hooks/useCallback/ParentComponent'
+
+// -------------- useMEMO -----------------------
+// import MemoCounter from './hooks/useMemo/MemoCounter'
+
+// -------------- useREF -----------------------
+// import FocusInput from './hooks/useRef/FocusInput'
+// import RefTimer from './hooks/useRef/RefTimer'
+
+// -------------- CUSTOM HOOKS -----------------------
+// import DocTitleOne from './hooks/customHooks/DocTitleOne'
+// import DocTitleTwo from './hooks/customHooks/DocTitleTwo'
+// import CounterOne from './hooks/customHooks/CounterOne'
+// import CounterTwo from './hooks/customHooks/CounterTwo'
+import UserForm from './hooks/customHooks/UserForm'
 
 import './App.css';
 
@@ -104,7 +120,25 @@ function App() {
 
       {/* ------------- DATA FETCHING with useREDUCER --------------- */}
       {/* <ConventionalDataFetching /> */}
-      <ReducerDataFetching />
+      {/* <ReducerDataFetching /> */}
+
+      {/* ------------------ useCALLBACK ------------------ */}
+      {/* <ParentComponent /> */}
+
+      {/* ------------------ useMEMO ------------------ */}
+      {/* <MemoCounter /> */}
+
+      {/* ------------------ useREF ------------------ */}
+      {/* <FocusInput /> */}
+      {/* <RefTimer /> */}
+
+      {/* -------------- CUSTOM HOOKS ---------------- */}
+      {/* <DocTitleOne /> */}
+      {/* <DocTitleTwo /> */}
+      {/* <CounterOne /> */}
+      {/* <CounterTwo /> */}
+      <UserForm />
+
     </div>
   );
 }
